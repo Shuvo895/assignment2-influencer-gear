@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 15px;
+}
+.heading1 {
+   
+    font-size: 45px;
+}
+.heading2{
+ 
+    font-size: 50px;
+    line-height: 0px;
+}
+
+.flexable-container{
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 25px;
+    padding-top: 50px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 980px;
+    padding-top: 30px;
+    padding-left: 33px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.width-size{
+    width: 50%;
+    padding-left: 7%;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+.width-size img{
+    margin-top: 20px;
+    width: 60%;
+}
+.a-space{
+    margin-top: 30px;
+}
+.a-space2{
+    padding-left: 60%;
+    padding-top: 3%;
+}
+.a-arrow {
+    text-decoration: none;
+    color: red;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.button-configure{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(236, 63, 63);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.section-tittle{
+    text-align: center;
+    font-size: 24px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.star{
+    font-size: 10px;
+    margin-right: 15px;
+}
+.fa-star.filled{
+    color: orange;
+}
+.fa-star.empty{
+    color: lightgray;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+}
+.box{
+        background-color: white;
+        height: 350px;
+        width: 240px;
+        margin: 15px;
+        padding:5px;
+        padding-left: 30px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 10px  #F3F1FF;
+}
+.photo-width img{
+
+    width: 500px;
+    height: 400px;
+    padding-left: 50px;
+    
+    
+
+}
+.class-width-size{
+    padding-left: 10%;
+}
+.support{
+    padding-top: 30px;
+}
+.support ul li{
+ list-style: none;
+ margin: 7px;
+ padding-bottom: 10px;
+ 
+ }
+.support ul li a{
+     text-decoration: none;
+     
+ }
+ footer{
+    background-color: rgb(7, 7, 37);
+    height: 250px;
+   
+}
+.footer-design h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+ 
+   
+}
+.footer-design p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    
+}
+.icon{
+  font-size: 30px;
+  color: white;
+  padding-left: 42%;
+}
+.fa-instagram{
+    background-color: rgb(13, 84, 107);
+    padding: 7px 7px;
+    border-radius: 17px;
+}
+.fa-dribbble{
+    background-color: rgb(13, 84, 107);
+    padding: 7px 7px;
+    border-radius: 17px;
+}
+.fa-twitter{
+    background-color: rgb(13, 84, 107);
+    padding: 7px 7px;
+    border-radius: 17px;
+}
+.fa-youtube{
+    background-color: rgb(13, 84, 107);
+    padding: 7px 7px;
+    border-radius: 17px;
+}
+.padding{
+    padding-top: -90px;
+}
+@media  only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .courses{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 17%;
+    }
+    .flexable-container{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+    .class-width-size {
+        padding-right: 20%;
+    }
+    .icon{
+        padding-left: 30%;
+    }    
+    .button-configure{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(236, 63, 63);
+        padding: 7px 15px;
+        border-radius: 15px; 
+    }
+}
+@media  only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .course{
+        grid-template-columns: repeat(2,1fr);
+     
+    } 
+    .flexable-container{
+        flex-direction: column;
+      
+    }
+}
+
